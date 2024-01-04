@@ -19,7 +19,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 	if (temp->left == new)
 	{
 		if (temp->right)
-			return(temp->right);
+			return (temp->right);
 		else
 			return (NULL);
 	}
